@@ -1,0 +1,39 @@
+﻿@model List<FakerChampionMastery.Models.ChampionMastery>
+@{
+    ViewData["Title"] = "페이커 챔피언 숙련도";
+}
+
+<section class="hero">
+    <div class="banner">
+        <img src="~/img/faker.jpg" alt="페이커">
+        <div class="banner-text">
+            <h1>페이커의 챔피언 숙련도</h1>
+            <p>League of Legends의 전설, 이상혁 선수의 TOP 10 챔피언</p>
+        </div>
+    </div>
+</section>
+
+<section class="champions-grid">
+    <h2>TOP 10 챔피언</h2>
+    <div class="champions-container">
+        @foreach (var champion in Model)
+        {
+            <div class="champion-card">
+                <div class="champion-img">
+                    <img src="@champion.ImageUrl" alt="@champion.KoreanName">
+                </div>
+                <div class="champion-info">
+                    <h3>@champion.KoreanName (@champion.EnglishName)</h3>
+                    <div class="mastery-bar">
+                        <div class="mastery-fill" style="width: @(champion.UsagePercentage)%;">@(champion.UsagePercentage)%</div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</section>
+<script>
+    function logImageUrl(imageUrl) {
+        console.log("이미지 URL:", imageUrl);
+    }
+</script>

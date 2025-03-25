@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - 페이커 챔피언 숙련도</title>
+    <link rel="stylesheet" href="~/css/styles.css" asp-append-version="true" />
+    <link rel="icon" href="~/img/lol-logo.png" type="image/png">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="~/img/lol-logo.png" alt="League of Legends">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">홈</a></li>
+                    @* <li><a href="#">챔피언</a></li>
+                    <li><a href="#">게임정보</a></li>
+                    <li><a href="#">뉴스</a></li>
+                    <li><a href="#">패치노트</a></li> *@
+                </ul>
+            </nav>
+            @* <div class="search">
+                <input type="text" placeholder="검색">
+                <button type="submit"><i class="search-icon"></i></button>
+            </div> *@
+        </div>
+    </header>
+
+    <main>
+        @RenderBody()
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="~/img/riot-logo.png" alt="Riot Games">
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">서비스 이용약관</a></li>
+                    <li><a href="#">라이엇 게임즈 소개</a></li>
+                    <li><a href="#">도움말</a></li>
+                </ul>
+            </div>
+            <div class="footer-copyright">
+                <p>© 2025 Faker Champion Mastery. All rights reserved.</p>
+                <p>This website is not endorsed by Riot Games and does not reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="~/js/script.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
