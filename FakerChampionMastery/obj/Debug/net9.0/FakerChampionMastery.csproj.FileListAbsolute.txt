@@ -97,3 +97,4 @@ D:\STUDY\LOL\FakerChampionMastery\obj\Debug\net9.0\refint\FakerChampionMastery.d
 D:\STUDY\LOL\FakerChampionMastery\obj\Debug\net9.0\FakerChampionMastery.pdb
 D:\STUDY\LOL\FakerChampionMastery\obj\Debug\net9.0\FakerChampionMastery.genruntimeconfig.cache
 D:\STUDY\LOL\FakerChampionMastery\obj\Debug\net9.0\ref\FakerChampionMastery.dll
+D:\STUDY\LOL\FakerChampionMastery\obj\Debug\net9.0\FakerChampionMastery.sourcelink.json

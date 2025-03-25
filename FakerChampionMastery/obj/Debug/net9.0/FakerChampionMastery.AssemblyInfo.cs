@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FakerChampionMastery")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a6888a6ec3f65d41d3728952eac73ed512c3ecb")]
 [assembly: System.Reflection.AssemblyProductAttribute("FakerChampionMastery")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FakerChampionMastery")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
